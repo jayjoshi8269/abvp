@@ -107,7 +107,7 @@ export function Home({ onNavigate }: HomeProps) {
             >
               <div className="bg-white/20 backdrop-blur-sm rounded-full px-6 py-2">
                 <span className="text-sm uppercase tracking-wider">
-                  ABVP Mahanagar Indore Presents
+                  ABVP  Indore Presents
                 </span>
               </div>
             </motion.div>
@@ -118,7 +118,7 @@ export function Home({ onNavigate }: HomeProps) {
               transition={{ delay: 0.3 }}
               className="mb-6 text-white"
             >
-              Coder Fest 2025
+              Coder's Fest 2025
             </motion.h1>
 
             <motion.p
@@ -367,7 +367,7 @@ export function Home({ onNavigate }: HomeProps) {
             >
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden ring-4 ring-orange-500">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1627776880991-808c5996527b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBpbmRpYW4lMjBtYWxlJTIwc3R1ZGVudCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2MzI3NjY1NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src="https://qbdaqpkdtcukljganman.supabase.co/storage/v1/object/sign/mian%20pthos/jk.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83NTJhNDg3MS05NDQ1LTRiNzEtYTUyNi05NzU1MjI0YjMzNGEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtaWFuIHB0aG9zL2prLmpwZWciLCJpYXQiOjE3NjM2NjU3NzQsImV4cCI6MTc5NTIwMTc3NH0.A9SLqHW2cg0Y5B0iHBQrQV0gUHh3pJ1OIw67daq13nk"
                   alt="Jay Joshi"
                   className="w-full h-full object-cover"
                 />
@@ -401,10 +401,10 @@ export function Home({ onNavigate }: HomeProps) {
               </div>
               <h3 className="mb-2">Mr. Devesh Gujar</h3>
               <p className="text-orange-600 mb-2">
-                ABVP Indore Secretary
+                 Secretary
               </p>
               <p className="text-gray-600 text-sm mb-4">
-                ABVP Mahanagar Indore
+              City secratary Abvp indore
               </p>
               <p className="text-sm text-gray-700">
                 Guidance & Support

@@ -24,7 +24,7 @@ export function Registration({ onSuccess, onNavigate }: RegistrationProps) {
   const [showPayment, setShowPayment] = useState(false);
   const [paymentProof, setPaymentProof] = useState<File | null>(null);
   const [teamSize, setTeamSize] = useState(5); // Default to 5 members
-  
+
   const [formData, setFormData] = useState({
     teamName: "",
     leaderName: "",
@@ -37,7 +37,7 @@ export function Registration({ onSuccess, onNavigate }: RegistrationProps) {
   const handleTeamSizeChange = (size: number) => {
     setTeamSize(size);
     // Resize the students array
-    const newStudents = Array(size).fill(null).map((_, i) => 
+    const newStudents = Array(size).fill(null).map((_, i) =>
       formData.students[i] || { name: "", email: "", contact: "" }
     );
     setFormData({ ...formData, students: newStudents });
@@ -118,7 +118,7 @@ export function Registration({ onSuccess, onNavigate }: RegistrationProps) {
 
       const result = await response.json();
       console.log("Registration successful:", result);
-      
+
       onSuccess(formData);
     } catch (error) {
       console.error("Registration error:", error);
@@ -300,19 +300,22 @@ export function Registration({ onSuccess, onNavigate }: RegistrationProps) {
                 <div className="bg-gradient-to-br from-orange-50 to-white border-2 border-orange-200 rounded-xl p-8 text-center">
                   <QrCode className="w-16 h-16 text-orange-600 mx-auto mb-4" />
                   <h3 className="mb-4">Scan to Pay</h3>
+
+                  {/* QR Image */}
                   <div className="bg-white p-6 rounded-lg inline-block shadow-lg mb-4">
-                    <div className="w-48 h-48 bg-gray-200 flex items-center justify-center rounded-lg">
-                      <p className="text-gray-500 text-sm text-center px-4">
-                        QR Code for Payment<br/>
-                        <span className="text-xs">(Use your UPI app to scan)</span>
-                      </p>
-                    </div>
+                    <img
+                      src="IMG_3989.jpg"    // <-- Replace with your QR image path
+                      alt="Payment QR Code"
+                      className="w-48 h-48 rounded-lg object-contain"
+                    />
                   </div>
+
                   <div className="text-sm text-gray-600 space-y-1">
                     <p>UPI ID: jayjoshi@upi</p>
                     <p>Amount: ₹199</p>
                   </div>
                 </div>
+
 
                 {/* Upload Payment Proof */}
                 <div>

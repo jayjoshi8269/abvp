@@ -39,7 +39,7 @@ export function Contact({ onNavigate }: ContactProps) {
                 >
                   <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden ring-8 ring-orange-500 shadow-xl">
                     <ImageWithFallback
-                      src="https://images.unsplash.com/photo-1627776880991-808c5996527b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBpbmRpYW4lMjBtYWxlJTIwc3R1ZGVudCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2MzI3NjY1NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                      src="https://qbdaqpkdtcukljganman.supabase.co/storage/v1/object/sign/mian%20pthos/jk.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83NTJhNDg3MS05NDQ1LTRiNzEtYTUyNi05NzU1MjI0YjMzNGEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtaWFuIHB0aG9zL2prLmpwZWciLCJpYXQiOjE3NjM2NjU3NzQsImV4cCI6MTc5NTIwMTc3NH0.A9SLqHW2cg0Y5B0iHBQrQV0gUHh3pJ1OIw67daq13nk"
                       alt="Jay Joshi"
                       className="w-full h-full object-cover"
                     />

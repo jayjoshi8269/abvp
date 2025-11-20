@@ -86,13 +86,7 @@ export function TechnicalTeam({ onNavigate }: TechnicalTeamProps) {
             transition={{ delay: 0.8 }}
             className="mt-12 text-center"
           >
-            <Card className="p-8 bg-gradient-to-br from-orange-500 to-orange-600 text-white shadow-xl max-w-2xl mx-auto">
-              <h3 className="mb-4 text-white">Join Our Technical Team</h3>
-              <p className="text-orange-100">
-                Interested in being part of the technical team for future events?<br />
-                Contact our coordinator to learn more about opportunities.
-              </p>
-            </Card>
+           
           </motion.div>
         </motion.div>
       </div>

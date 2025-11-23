@@ -304,7 +304,7 @@ export function Registration({ onSuccess, onNavigate }: RegistrationProps) {
                   {/* QR Image */}
                   <div className="bg-white p-6 rounded-lg inline-block shadow-lg mb-4">
                     <img
-                      src="IMG_3989.jpg"    // <-- Replace with your QR image path
+                      src="https://qbdaqpkdtcukljganman.supabase.co/storage/v1/object/sign/mian%20pthos/IMG_3989.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83NTJhNDg3MS05NDQ1LTRiNzEtYTUyNi05NzU1MjI0YjMzNGEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtaWFuIHB0aG9zL0lNR18zOTg5LmpwZyIsImlhdCI6MTc2Mzg2NjIzNCwiZXhwIjoxNzk1NDAyMjM0fQ.EkISfhLaORcRyLbAd1fd0HZIgb-qew8BthmrKnv1VdE"    // <-- Replace with your QR image path
                       alt="Payment QR Code"
                       className="w-48 h-48 rounded-lg object-contain"
                     />

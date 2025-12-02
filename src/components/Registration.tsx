@@ -311,7 +311,7 @@ export function Registration({ onSuccess, onNavigate }: RegistrationProps) {
                   </div>
 
                   <div className="text-sm text-gray-600 space-y-1">
-                    <p>UPI ID: jayjoshi@upi</p>
+                    <p>UPI ID: 8269488218@ptyes</p>
                     <p>Amount: ₹199</p>
                   </div>
                 </div>

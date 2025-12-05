@@ -128,6 +128,7 @@ export function Home({ onNavigate }: HomeProps) {
               className="text-xl md:text-2xl mb-8 text-orange-100"
             >
               Where Innovation Meets Excellence
+              We are sorry to inform you that the event is being postponed due to a large number of registrations. We are arranging a new venue and a new date, which will be announced very soon. Thank you for your understanding
             </motion.p>
 
             <motion.div
